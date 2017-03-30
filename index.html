@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inlämning 4</title>
+	<link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	
+<script src="https://www.gstatic.com/firebasejs/3.7.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCiUYfm4gzKW7G1mhovUETFIkDAAOYsYuI",
+    authDomain: "todolist-f8ee1.firebaseapp.com",
+    databaseURL: "https://todolist-f8ee1.firebaseio.com",
+    storageBucket: "todolist-f8ee1.appspot.com",
+    messagingSenderId: "973459076804"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="script.js"></script>
+</head>
+
+    <body>
+	<h1>To do list</h1>
+    
+    
+        
+       
+      <button id="listTaskName">Taskname</button>
+      <button id="listLastAdded">Last added</button>
+      <button id="showDeadline">Deadline</button>
+      <button id="listCompleted">Completed</button>
+      <button id="listNotComleted">Not completed</button>
+  
+    
+     <br><p>Visa så här många resultat:</p>
+  <input class="inputs" type="text" placeholder="Skriv antal" id="inputNumberToShow"><br>
+         <button id="showThisManyBtn">Visa</button>
+    
+  <br>
+  <p>Task:</p>
+  <input class="inputs" type="text" placeholder="task" id="inputTask">
+  <p>Deadline:</p>
+  <input class="inputs" type="date" id="inputDate"><br>
+        <button id="addTaskBtn">Spara</button>
+        
+        <ul class="postit" id="taskListUl">
+        </ul>
+
+	
+	
+</body>
+</html>
