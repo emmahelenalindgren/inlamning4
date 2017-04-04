@@ -1,65 +1,57 @@
 body {
-    /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a9/88/7e/a9887e8579ebe13cece98b4142b2dcae.jpg");*/
-
- background: #ffffff; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
+	background: #ffffff;
+	/* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	/* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-
 h1 {
 	color: #000;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3px;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-
 h2 {
 	color: #000;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-
 p {
-    color: #000;
-    font-size: 20px;
-    letter-spacing: 3px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.inputs {
-        padding: 10px 15px 10px 15px;
-      color: darkgrey;
-    font-size: 17px;
-    letter-spacing: 3px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-#loginButton {
-	display: inherit;
-}
-
-.logochat {
-	max-width: 220px;
-}
-
-.inputtext {
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: center;
-	margin: auto;
-	color: #84DBFF;
-	font-size: 18px;
-	padding: 10px;
-	margin-top: 15px;
-}
-
-button {
+	color: #000;
 	font-size: 20px;
-    letter-spacing: 3px;
+	letter-spacing: 3px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.inputs {
+	color: darkgrey;
+	font-size: 17px;
+	letter-spacing: 3px;
+	font-family: 'Reenie Beanie', cursive;
+	border-color: transparent;
+	background-color: transparent;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.inputNumber {
+	color: darkgrey;
+	font-size: 17px;
+	letter-spacing: 3px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-color: transparent;
+	background-color: transparent;
+	text-decoration: none;
+	text-align: center;
+}
+button, .linkbtn {
+	font-size: 20px;
+	letter-spacing: 3px;
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -68,50 +60,63 @@ button {
 	text-decoration: none;
 	padding: 10px 15px 10px 15px;
 	border: none;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Reenie Beanie', cursive;
 }
-
 ul {
 	list-style-type: none;
-    margin: 0;
+	margin: 0;
 	padding: 0;
 }
-
 li {
-  line-height: 3;    
-  text-align:center;     
-  width: 275px;    
-  margin: 25px;    
-  min-height:250px;
-  max-height:250px;
-  padding-top:35px;
-    padding: 15px;
-  position:relative;   
-  border:1px solid #E8E8E8;  
-  border-top:60px solid #fdfd86;
-  font-family:'Reenie Beanie', cursive;    
-  font-size:23px;      
-  border-bottom-right-radius: 60px 5px;
-  display:inline-block;    
-  background: #ffff88; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(81%,#ffff88), color-stop(82%,#ffff88), color-stop(82%,#ffff88), color-stop(100%,#ffffc6)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* IE10+ */
-background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
-I know what you are thinking. Where is the shadow? Well, the shadow is actually a different piece of CSS. 
-
-
-
-#logOutButton {
-	display: none;
+	line-height: 29px;
+	text-align: center;
+	width: 275px;
+	margin: 25px;
+	min-height: 250px;
+	max-height: 250px;
+	padding-top: 35px;
+	padding: 15px;
+	position: relative;
+	border: 1px solid #E8E8E8;
+	border-top: 60px solid #fdfd86;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 18px;
+	border-bottom-right-radius: 60px 5px;
+	display: inline-block;
+	background: #ffff88;
+	background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(81%, #ffff88), color-stop(82%, #ffff88), color-stop(82%, #ffff88), color-stop(100%, #ffffc6));
+	background: -webkit-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -o-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -ms-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6', GradientType=1);
 }
-
-.chatpart1 {
-	display: none;
-	max-width: 700px;
+.postit {
+	line-height: 2;
+	text-align: left;
+	width: 275px;
 	margin: auto;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	min-height: 250px;
+	max-height: 250px;
+	padding-top: 35px;
+	padding: 25px;
+	position: relative;
+	border: 1px solid #E8E8E8;
+	border-top: 60px solid #fdfd86;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 23px;
+	border-bottom-right-radius: 60px 5px;
+	background: #ffff88;
+	background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(81%, #ffff88), color-stop(82%, #ffff88), color-stop(82%, #ffff88), color-stop(100%, #ffffc6));
+	background: -webkit-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -o-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: -ms-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	background: linear-gradient(135deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6', GradientType=1);
+}
+*:focus {
+	outline: none;
 }
